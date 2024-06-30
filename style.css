@@ -1,3 +1,7 @@
+html {
+    scroll-padding-top: 116px;
+}
+
 body {
     color: white;
     background-color: #1F1F1F;
@@ -6,8 +10,8 @@ body {
 
 nav {
     z-index: 1000;
-    padding-top: 32px;
-    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 20px;
     position: fixed;
     width: 100%;
     top: 0;
