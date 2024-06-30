@@ -89,22 +89,23 @@ nav {
 }
 
 .about-box {
-    width: 1024px;
+    width: 1080px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .about-box img {
+    margin-left: 24px;
     width: 180px;
     height: auto;
 }
 
 .about-box p {
     margin: 24px;
-    line-height: 1.3em;
+    line-height: 1.35em;
 }
 
 .JRTI-container {
