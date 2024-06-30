@@ -32,6 +32,12 @@ nav {
 .menu li {
     margin: 0 20px;
 }
+  
+@media only screen and (max-width: 768px) {
+    .menu li {
+        margin: 0 6px;
+    }
+}
 
 .menu a {
     color: white;
@@ -56,6 +62,12 @@ nav {
 .titel-image-container img {
     width: 600px;
     height: auto;
+}
+  
+@media only screen and (max-width: 768px) {
+    .titel-image-container img {
+        width: 78%;
+    }
 }
 
 .title-box {
@@ -92,6 +104,12 @@ nav {
     height: auto;
 }
 
+@media only screen and (max-width: 1080px) {
+    .content-box {
+        width: 100%;
+    }
+}
+
 .about-box {
     width: 1080px;
     height: auto;
@@ -99,6 +117,13 @@ nav {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .about-box {
+        width: 100%;
+        flex-direction: column;
+    }
 }
 
 .about-box img {
@@ -123,6 +148,12 @@ nav {
 .JRTI-img {
     width: 600px;
     height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .JRTI-img {
+        width: 78%;
+    }
 }
 
 .JRTI-container p {
@@ -185,6 +216,18 @@ nav {
     gap: 22px;
 }
 
+@media only screen and (max-width: 1080px) {
+    .JRTI-screenshots {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .JRTI-screenshots {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .JRTI-screenshots img {
   position: relative;
   width: 320px;
@@ -213,6 +256,12 @@ nav {
     gap: 18px;
 }
 
+@media only screen and (max-width: 1080px) {
+    .itch-games {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 .itch-game-widget {
     position: relative;
 }
@@ -235,6 +284,12 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .unity-assets {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .unity-asset-box {
