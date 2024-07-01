@@ -293,7 +293,7 @@ nav {
     gap: 18px;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1280px) {
     .unity-assets {
         grid-template-columns: repeat(1, 1fr);
     }
