@@ -35,7 +35,7 @@ nav {
   
 @media only screen and (max-width: 768px) {
     .menu li {
-        margin: 0 6px;
+        margin: 0 4px;
     }
 }
 
@@ -135,6 +135,13 @@ nav {
 .about-box p {
     margin: 24px;
     line-height: 1.35em;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1080px) {
+    .about-box p {
+        text-align: center;
+    }
 }
 
 .JRTI-container {
